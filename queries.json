@@ -1,0 +1,9 @@
+[
+  {
+    "query": "((from:ThePSF -is:retweet) OR #python) lang:en",
+    "tweet.fields": "author_id,lang,text,created_at,attachments",
+    "media.fields": "url,width,alt_text,type",
+    "sort_order": "relevancy",
+    "user.fields": "name,description,profile_image_url,url,username,verified,created_at"
+  }
+]
